@@ -3,8 +3,9 @@ data/raw/*.zip
 data/raw/*.sav
 data/raw/*.SAV
 data/raw/edificaciones_*/
-# Base de datos y datos procesados generados
+# Base de datos y datos procesados generados (regenerables con el pipeline)
 data/construccion.db
+data/processed/*.csv
 # Python
 __pycache__/
 *.pyc
