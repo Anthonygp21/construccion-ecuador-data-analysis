@@ -1,0 +1,16 @@
+# Datos crudos (se descargan con scripts/01_descargar_datos.py)
+data/raw/*.zip
+data/raw/*.sav
+data/raw/*.SAV
+data/raw/edificaciones_*/
+# Base de datos y datos procesados generados
+data/construccion.db
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# SO
+Thumbs.db
+.DS_Store
